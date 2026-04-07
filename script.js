@@ -1,3 +1,4 @@
+//final funcionando al fin 07/04
 const formulario = document.getElementById("formulario-contacto"); //no se como o que hice mal pero esto funciono asi que mantengamoslo
 const mensaje = document.getElementById("mensaje");
 
