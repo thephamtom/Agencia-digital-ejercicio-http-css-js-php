@@ -26,7 +26,7 @@ main {
     max-width: 900px;
     margin: 30px auto;
 }
-
+/* tengo mis dudas de cambiar esto pero no lo se quisas mas adelante si alcanza el tiempo*/
 .seccion {
     background-color: white;
     margin-bottom: 20px;
@@ -34,12 +34,11 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-
+/*con el color que tengo por defecto en windows no molesta y se ve mejor que con blanco y azul*/
 .seccion h2 {
     margin-bottom: 15px;
     color: #1e2a38;
 }
-
 .seccion ul {
     padding-left: 20px;
 }
@@ -71,7 +70,6 @@ button {
 button:hover {
     background-color: #2d4055;
 }
-
 #mensaje {
     margin-top: 15px;
     font-weight: bold;

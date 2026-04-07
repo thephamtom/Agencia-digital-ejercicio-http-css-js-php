@@ -1,4 +1,4 @@
-const formulario = document.getElementById("formulario-contacto");
+const formulario = document.getElementById("formulario-contacto"); //no se como o que hice mal pero esto funciono asi que mantengamoslo
 const mensaje = document.getElementById("mensaje");
 
 formulario.addEventListener("submit", function(event) {
@@ -7,7 +7,7 @@ formulario.addEventListener("submit", function(event) {
     const nombre = document.getElementById("nombre").value.trim();
     const correo = document.getElementById("correo").value.trim();
 
-    // esta condición quedó descartada porque era muy básica
+    // esta condición quedo Eliminada porque era muy meh
     // if (nombre == "") {
     //     alert("falta algo");
     // }
