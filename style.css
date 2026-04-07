@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* este color se probó antes pero no combinaba */
+/* body { background: green; } */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+.hero {
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.seccion {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.seccion h2 {
+    margin-bottom: 15px;
+    color: #1e2a38;
+}
+
+.seccion ul {
+    padding-left: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #1e2a38;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d4055;
+}
+
+#mensaje {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #0b6b2f;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
